@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "variable": "전입",
+      "room": "비육1",
+      "numbers": 30,
+      "status": true,
+      "date": "2022-04-30"
+    },
+    {
+      "id": 2,
+      "variable": "전출",
+      "room": "비육1",
+      "numbers": 30,
+      "status": false,
+      "date": "2022-05-30"
+    },
+    {
+      "id": 3,
+      "variable": "입식",
+      "room": "비육1",
+      "numbers": 30,
+      "status": true,
+      "date": "2022-06-30"
+    },
+    {
+      "id": 4,
+      "variable": "전입",
+      "room": "비육1",
+      "numbers": 30,
+      "status": false,
+      "date": "2022-07-30"
+    },
+    {
+      "id": 5,
+      "variable": "전출",
+      "room": "비육1",
+      "numbers": 30,
+      "status": true,
+      "date": "2022-06-30"
+    },
+    {
+      "id": 6,
+      "variable": "입식",
+      "room": "비육1",
+      "numbers": 30,
+      "status": false,
+      "date": "2022-06-30"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+.react-calendar {
+   width: 800px;
+   height: auto;
+   max-width: 100%;
+   background-color: #fff;
+   color: #222;
+   border-radius: 0;
+   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.125em;
+   padding: 0rem;
+   white-space: nowrap;
+}
+
+.react-calendar button:hover {
+   decoration: none;
+}
+.react-calendar__navigation button {
+   color: #f0f0f0;
+   min-width: 44px;
+   font-size: 1.25rem;
+   /* margin-top: 8px; */
+   font-weight: bold;
+   justify-content: space-between;
+}
+
+.react-calendar__navigation {
+   background: #0e1e43;
+}
+
+.react-calendar__navigation span {
+   margin: 0 12.5rem;
+   color: #f0f0f0;
+}
+
+.react-calendar__navigation span:hover {
+   background-color: none;
+}
+
+/* .react-calendar__month-view {
+    margin-top: 5rem;
+    justify-content: center;
+   } */
+
+.react-calendar__month-view__weekdays {
+   padding-left: 2rem;
+   padding-right: 2rem;
+   padding-top: 2rem;
+}
+
+.react-calendar__month-view__days__day > abbr {
+   /* padding:1rem; */
+   color: #000000;
+}
+
+.react-calendar__month-view__days {
+   paddig-top: 0rem;
+   padding: 2rem;
+   /* margin: 1rem; */
+}
+
+.react-calendar__navigation {
+   padding: 1rem;
+   margin-bottom: 1rem;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+   background: none;
+}
+
+.react-calendar__navigation button[disabled] {
+   /* background-color: #f0f0f0; */
+}
+
+abbr[title] {
+   /* text-decoration: none; */
+}
+
+.react-calendar__month-view__days__day--weekend > abbr {
+   color: #d10000;
+}
+
+.react-calendar__month-view__days__day {
+   padding: 1rem;
+}
+
+//선택된 날짜
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+   background: #f8f8fa;
+   color: #000000;
+   border-radius: 6px;
+}
+
+.react-calendar__tile--now {
+   background: #f0f0f0;
+   border-radius: 6px;
+   font-weight: bold;
+   color: #f0f0f0;
+   margin: 0;
+}
+
+// 오늘 날짜 color //
+.react-calendar__tile--now > abbr {
+   color: #000000;
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+   background: #f8f8fa;
+   border-radius: 10px;
+   font-weight: bold;
+}
+
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+   background: #f8f8fa;
+}
+.react-calendar__tile--active {
+   /* background: #f8f8fa; */
+   border-radius: 6px;
+   font-weight: bold;
+   color: white;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+   background: #f0f0f0;
+   color: white;
+}
+
+.react-calendar--selectRange .react-calendar__tile--hover {
+   background-color: #f8f8fa;
+}
+
+.react-calendar__tile--range {
+   background: #f8f8fa;
+   color: #000000;
+   border-radius: 0;
+}
+
+.react-calendar__tile--rangeStart {
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+   border-top-left-radius: 6px;
+   border-bottom-left-radius: 6px;
+   background: #000000;
+   color: white;
+}
+.react-calendar__tile--rangeEnd {
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+   border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;
+   color: white;
+}
